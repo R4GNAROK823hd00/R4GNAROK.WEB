@@ -28,15 +28,16 @@ body {
 header {
     width: 100%;
     height: 600px;
-    background: #000000;
+    background: #24C6DC;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/Portada.png);
+    background: -webkit-linear-gradient(to right, hsla(197, 82%, 55%, 0.459), #4e74bca9), url(../img/Portada.png);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/Portada.png);
+    background: linear-gradient(to right, hsla(241, 84%, 65%, 0), hsla(219, 80%, 67%, 0)), url(../img/Portada.png);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+   background-size: cover;
+   background-attachment: fixed;
+   position: relative;
 }
 
 nav{
@@ -45,7 +46,7 @@ nav{
 }
 
 nav > a{
-    color:00FEEE;
+    color:#00fe3f;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
@@ -67,7 +68,7 @@ header .textos-header{
 
 .textos-header h1{
     font-size: 50px;
-    color:#fff;
+    color:rgb(4, 241, 56);
 }
 
 .textos-header h2{
@@ -105,7 +106,7 @@ main .sobre-nosotros{
 }
 
 .contenido-textos h3 span{
-    background: #4d0686;
+    background: #ffffff;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -158,7 +159,7 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: hsla(273,91%,27%, 0.7);
+    background: rgba(0, 0, 0, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
