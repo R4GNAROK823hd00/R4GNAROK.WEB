@@ -143,7 +143,7 @@ main .sobre-nosotros{
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 0 6px 0 rgba(81, 255, 0, 0.932);
 }
 
 .imagen-port > img{
@@ -187,7 +187,7 @@ main .sobre-nosotros{
 }
 
 .cards .card{
-    background: #4d0686;
+    background: #51ff01;
     display: flex;
     width: 46%;
     height: 200px;
@@ -272,7 +272,7 @@ footer{
 
 .content-foo h4{
     color: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-bottom: 3px solid #16fa01;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
